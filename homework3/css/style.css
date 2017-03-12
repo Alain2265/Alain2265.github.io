@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f9f9f9;
+}
+
+.wrapper {
+    width: 1060px;
+    height: 950px;
+    margin: auto;
+    padding: 40px 0px;
+    box-shadow: 0px 3px 2px 2px #dbdbdb;
+    background-color: #ffffff;
+    font-family: 'Open sans', sans-serif, Arial;
+    font-size: 14px;
+}
+
+
+/*header*/
+
+header {
+    margin: 0px 40px 40px 40px;
+}
+
+.logo a {
+    width: 140px;
+    height: 40px;
+}
+
+.top-menu {
+    height: 40px;
+    width: 970px;
+    margin: auto;
+    margin: 45px 0px;
+    background-image: url('../image/panel.png');
+}
+
+.top-menu a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+nav li {
+    list-style-position: inside;
+    font: 'Open sans', sans-serif, Arial;
+    font-size: 14px;
+}
+
+.top-menu li {
+    margin-right: 25px;
+    display: inline-block;
+    padding: 10px 30px;
+}
+
+.top-menu li:hover, .top-menu li:active {
+    border-left: 1px solid #838383 transporte;
+    border-right: 1px solid#838383;
+    color: #ffffff;
+}
+
+
+/*container*/
+
+.container {
+    width: 240px;
+    margin-left: 45px;
+}
+
+aside {
+    width: 235px;
+    position: relative;
+    top: 40px;
+    float: left;
+    border: 1px solid #c8c8c8;
+}
+
+.left-sidebar a {
+    text-decoration: none;
+    padding: 10px;
+    color: #7c7c7c;
+    display: block;
+}
+
+.left-sidebar li {
+    height: 40px;
+    list-style-type: none;
+    display: inline;
+}
+
+.left-sidebar a:hover, .left-sidebar a:active {
+    border-top: 2px solid #c8c8c8;
+    border-bottom: 2px solid #c8c8c8;
+    color: #7c7c7c;
+}
+
+section {
+    position: relative;
+    top: 0px;
+    float: right;
+}
+
+.velosity img {
+    width: 520px;
+    margin: 40px 40px;
+    padding: 40px 70px;
+    float: right;
+    border: 1px solid #c8c8c8;
+}
+
+p {
+    width: 641px;
+    line-height: 1.5;
+    padding: 35px;
+    text-align: justify;
+    clear: both;
+}
+
+
+/*footer*/
+
+footer {
+    margin: 0px 40px;
+    clear: both;
+}
+
+.footer-menu {
+    height: 40px;
+    width: 970px;
+    margin-top: 45px;
+    margin-bottom: 45px;
+    background: url('../image/panel-footer.png')
+}
+
+.footer-menu a {
+    text-decoration: none;
+    color: #747474;
+}
+
+nav li {
+    list-style-position: inside;
+    font: 'Open sans', sans-serif, Arial;
+    font-size: 14px;
+}
+
+.footer-menu li {
+    float: left;
+    margin-right: 25px;
+    display: inline-block;
+    padding: 10px 30px
+}
+
+.footer-menu li:hover, .footer-menu li:active {
+    border-left: 2px solid #838383;
+    border-right: 2px solid#838383;
+    color: #ffffff;
+}
+
+.copiright {
+    display: inline-block;
+    float: right;
+    font-size: 14px;
+    color: #747474;
+    padding: 10px;
+    margin-right: 24px;
+}

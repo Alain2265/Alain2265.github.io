@@ -1,0 +1,43 @@
+body {
+    width: 500px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+}
+
+.fio, .hoby {
+    padding: 10px;
+    text-align: center;
+}
+
+.displayed {
+    text-align: center;
+}
+
+img {
+    width: 337px;
+}
+
+.text1 {
+    margin: auto;
+    padding: 20px;
+    color: #5e5e5e;
+    text-align: center;
+}
+
+.text1, .bio, .contacts {
+    border-bottom: 1px solid gray;
+    text-align: center;
+    padding: 10px;
+}
+
+p {
+    text-align: left;
+    margin-left: 20px;
+}
+
+ul {
+    display: block;
+    margin: auto;
+    padding-top: 10px;
+    text-align: left;
+}

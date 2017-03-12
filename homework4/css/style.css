@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #0e85a9;
+    background-image: url(../image/back.png);
+    text-align: center;
+}
+
+.wrapper {
+    width: 1060px;
+    height: 986px;
+    margin: 0 auto;
+    margin-top: 36px;
+    margin-bottom: 36px;
+    box-shadow: 0px 3px 2px 2px #0c677f;
+    background-color: #ffffff;
+    font-family: Tahoma, sans-serif, Arial;
+    font-size: 14px;
+    border-bottom: 2px;
+}
+
+
+/*header*/
+
+a img {
+    display: block;
+    float: left;
+    margin-left: 10px;
+    clear: both
+}
+
+.contact_countre {
+    display: block;
+    float: right;
+}
+
+.listcontact {
+    color: #5fa5bb;
+    font-family: Tahoma, sans-serif, Arial;
+    margin: 5px 30px;
+    text-align: left;
+    float: right;
+}
+
+.listcontact a {
+    text-decoration: none;
+    color: #5fa5bb;
+}
+
+.listcontact li {
+    list-style-type: none;
+}
+
+
+/*Navigation*/
+
+.navigation {
+    list-style: none;
+    margin: 30px;
+    clear: both;
+    position: relative;
+    top: 27px;
+}
+
+.navigation li {
+    float: right;
+    margin-left: 10px;
+}
+
+.navigation li a {
+    display: block;
+    text-align: center;
+    color: #5fa5bb;
+    font-size: 10px;
+    background-position: center top;
+    background-repeat: no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.navigation li a:hover {
+    color: #0000CC;
+}
+
+.imgpalm {
+    border-top: 2px solid #128aa7;
+    border-bottom: 2px solid #128aa7;
+    position: relative;
+    top: 10px;
+}
+
+
+/*panel*/
+
+.panel {
+    height: 28px;
+    border: 1px solid #000000;
+    background-color: #343434;
+}
+
+.panel a {
+    color: #ffffff;
+}
+
+.panel li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+/*Copiright*/
+
+.copiright {
+    width: 201px;
+    color: #ffffff;
+    text-align: center;
+    font-family: 12px Tahoma, Arial;
+    margin: auto;
+}
