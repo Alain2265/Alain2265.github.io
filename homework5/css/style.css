@@ -1,102 +1,123 @@
+@font-face {
+    font-family: HelveticaNeue;
+    src: url(../font/HelveticaNeue.ttf);
+}
+
 body {
     margin: 0;
     padding: 0;
+    background-size: cover;
+    font-size: 14px;
+    font-family: Helvetica Neue, arial, sans-serif;
+    display: flex;
     background: url(../image/backphoto.png) no-repeat center center fixed;
     background-size: 100%;
+    flex-direction: column;
 }
 
 header {
-    margin: 0;
-    padding: 0;
-    display: flex;
-    background-color: #074c89;
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    background-color: #085494;
+    font-size: 0;
     background-image: url(data:image/png;base64,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);
 }
 
 
 /*headerleft*/
 
-.buttons {
-    margin: 0;
-    padding: 0;
-}
-
-.buttons li {
-    display: inline-flex;
-    padding: 15px;
-}
-
-.buttons a {
-    text-decoration: none;
+.rightmenu1, .rightmenu2 {
+    display: inline-block;
+    list-style: none;
     font-size: 14px;
-    color: #2d79b4;
+    color: #fff;
+    padding: 0 17px 0 10px;
 }
 
-.button li a {
-    display: block;
-}
-
-.button li a :hover .button li a :active {
-    border: 1px solid #ffffff;
-    background: #4eabda;
-    color: #ffffff;
-    box-shadow: 8px 8px 8px 8px rgba(0, 0, 255);
-}
-
-..buttons2 a li {
-    text-decoration: none;
-}
-
-
-/*headerright*/
-
-.buttons1 {
-    margin: 0;
-    padding: 0;
-}
-
-.buttons1 li {
-    display: inline-flex;
-    padding: 30px;
-}
-
-.buttons1 a {
-    text-decoration: none;
-    color: #2d79b4;
+.sitemenu li {
+    display: inline-block;
+    list-style: none;
     font-size: 14px;
+    color: #fff;
 }
 
-.buttons2 li a {
-    display: block;
+.sitemenu li {
+    padding: 0 17px 0 10px;
 }
 
-
-/*headerlefy*/
-
-.buttons2 {
-    margin: 0;
-    padding: 0;
+.rightmenu1, .rightmenu2, .sitemenu {
+    float: right;
+    position: relative;
 }
 
-.buttons2 li {
-    display: inline-flex;
-    padding: 30px;
-}
-
-.buttons2 a {
+.rightmenu1 a, .rightmenu2 a, .sitemenu a {
+    display: inline-block;
     text-decoration: none;
-    color: #2d79b4;
-    font-size: 14px;
+    line-height: 35px;
+    color: #fff;
 }
 
-.buttons2 li a {
-    display: block;
+.rightmenu2 img {
+    padding-right: 15px;
+    float: left;
+    width: 21px;
+    height: 23px;
+    margin-top: 4px;
+}
+
+.rightmenu2 :hover {
+    background-image: linear-gradient(#51b1dc, #2e7ac4);
+    outline: 1px solid #4e9ed8;
+    height: 34px;
+}
+
+.rightmenu1 a:hover {
+    text-decoration: underline;
+}
+
+.rightmenu1>a {
+    margin-left: 10px;
+}
+
+.sitemenua {
+    padding: 0 10px 0 13px;
+    color: #60b5ed;
+}
+
+.sitemenua :hover {
+    background-color: #4eabda;
+    color: #fff;
+}
+
+.rightmenu2 :hover {
+    background: linear-gradient(#51b1dc, #2e7ac4);
+    outline: 1px solid #4e9ed8;
+    height: 34px;
+}
+
+.rightmenu2 a:hover {
+    text-decoration: underline;
+}
+
+.sitemenu {
+    position: relative;
+    margin-right: 18px;
+}
+
+.sitemenu:after {
+    content: "";
+    position: absolute;
+    height: 31px;
+    margin-top: 2px;
+    margin-left: 13px;
+    border-right: 1px solid #60b5ed;
 }
 
 
 /*block*/
 
-.centerblock {
+.registrationmenu {
     width: 100%;
     height: 100%;
     position: fixed;
@@ -110,6 +131,7 @@ header {
 
 .block {
     width: 560px;
+    height: 612px;
     background-color: rgba(0, 0, 0, 0.6);
 }
 
@@ -135,8 +157,6 @@ span {
 .fa {
     box-sizing: border-box;
     position: relative;
-    /* width: 13em;  - apply for fixed size */
-    margin: 0.2em;
     padding: 0 15px 0 46px;
     border: none;
     text-align: left;
@@ -201,7 +221,7 @@ fieldset {
 }
 
 legend {
-    padding: 20px;
+    padding: 15px;
     color: #838482;
     border-color: #838482;
 }
@@ -212,13 +232,14 @@ legend {
     width: 95%;
     padding-left: 20px;
     padding: 9px;
+    margin: 10px;
     background: #0f0f0f;
 }
 
 .text:focus, .text :hover {
     border: 1px solid #1e4b76;
     background: #1b5288;
-    box-shadow: 8px 8px 8px 8px rgba(0, 0, 255);
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 255, 0.5);
 }
 
 label {
@@ -233,6 +254,7 @@ label {
     border-radius: 6px;
     background: linear-gradient( #4eabda, #398bcc, #2f7bc4);
     padding: 8px;
+    margin: 20px;
 }
 
 .button:hover, .button:focus {
@@ -243,16 +265,10 @@ label {
 .text1 {
     color: #838482;
     font-size: 10px;
+    margin: 20px;
 }
 
-r-gradient(#5B7BD5, #4864B1);
-
-}
 .text1 {
     color: #838482;
     font-size: 10px;
-}
-
-}
-
 }
