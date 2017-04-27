@@ -58,7 +58,7 @@ a img {
 /*Navigation*/
 
 .navigation {
-    list-style-type: : none;
+    list-style-type: none;
     padding: 30px;
     clear: both;
 }
@@ -80,8 +80,9 @@ a img {
     height: 60px;
 }
 
-.navigation li a:hover {
-    color: #0000CC;
+.navigation a:hover>ul>li>a:hover, .navigation>ul>li>a:active {
+    background-color: #ffff;
+    color: black;
 }
 
 .imgpalm {
@@ -99,7 +100,6 @@ a img {
     background-color: #343434;
     box-shadow: 0 0 5px #555555;
     position: relative;
-    clear: both;
     font-size: 14px;
 }
 
@@ -112,7 +112,7 @@ a img {
 .panel>ul>li>a {
     color: #ffffff;
     display: block;
-    padding: 8px 35px 8px;
+    padding: 9px 30px 5px;
     text-decoration: none;
 }
 
@@ -130,7 +130,6 @@ a img {
     overflow: hidden;
     display: none;
     position: absolute;
-    top: 30px;
     width: 150px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, .75);
 }
@@ -158,13 +157,12 @@ a img {
 
 .column {
     display: table;
-    margin-top: 5px;
+    clear: both;
 }
 
 .contant1 {
     display: table-cell;
     width: 207px;
-    margin-top: 10px;
     padding: 20px;
     text-align: justify;
     background: #edeef0;
@@ -177,7 +175,6 @@ a img {
 .contant2 {
     display: table-cell;
     width: 207px;
-    margin-top: 10px;
     padding: 20px;
     text-align: justify;
     background: #edeef0;
