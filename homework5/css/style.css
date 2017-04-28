@@ -35,6 +35,11 @@ header {
     padding: 0 17px 0 10px;
 }
 
+.sitemenu a:hover>ul>li>a:hover, .sitemenu>ul>li>a:active {
+    background-color: #ffff;
+    color: black;
+}
+
 .sitemenu li {
     display: inline-block;
     list-style: none;
@@ -66,7 +71,7 @@ header {
     margin-top: 4px;
 }
 
-.rightmenu2 :hover {
+.rightmenu2 a:hover, .rightmenu2 a:active {
     background-image: linear-gradient(#51b1dc, #2e7ac4);
     outline: 1px solid #4e9ed8;
     height: 34px;
@@ -85,19 +90,9 @@ header {
     color: #60b5ed;
 }
 
-.sitemenua :hover {
-    background-color: #4eabda;
-    color: #fff;
-}
-
-.rightmenu2 :hover {
-    background: linear-gradient(#51b1dc, #2e7ac4);
-    outline: 1px solid #4e9ed8;
-    height: 34px;
-}
-
-.rightmenu2 a:hover {
-    text-decoration: underline;
+.sitemenu a:hover, .sitemenu a:active {
+    background: #4eabd;
+    color: #ffffff;
 }
 
 .sitemenu {
