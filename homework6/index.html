@@ -6,9 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>6</title>
+    <link rel="stylesheet" href="css/normilize.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="font-awesome.min.css">
-    <link rel="stylesheet" href="normilize.css">
+
 </head>
 
 <body>
@@ -43,21 +44,17 @@
             <li class="shop"><img src="image/basket.png" alt=""> товаров: <span>0</span> на сумму: <span>0.00 грн</span></li>
         </ul>
     </nav>
-    <div>
-        <! searchmenu -->
-        <div class="leftmenu">.</div>
-        <div class="centermenu"></div>
-        <div class="righmenu"></div>
-    </div>
+
+    <! searchmenu -->
     <!-- content -->
     <div class="content">
         <section class="menucatalog">
             <ul>
                 <ul class="catalog">
-                    <li class="productcatalog"><i><a href="#">КАТАЛОГ ПРОДУКЦИИ:</a></i></li>
+                    <li class="productcatalog"><span><img src="image/list.png" alt="">КАТАЛОГ ПРОДУКЦИИ:</span></li>
                 </ul>
                 <ul class="shinugroup">
-                    <li class="group"><i><a href="#">ШИНЫ</a></i></li>
+                    <li class="group"><span><img src="image/list.png" alt="">ШИНЫ</span></li>
                 </ul>
                 <ul>
                     <li class="name"><a href="#">Наименование 1</a></li>
@@ -66,7 +63,7 @@
                     <li class="name"><a href="#">Наименование 4</a></li>
                 </ul>
                 <ul class="diskgroup">
-                    <li class="group"><i><a href="#">ДИСКИ</a></i></li>
+                    <li class="group"><span><img src="image/list.png" alt="">ДИСКИ</span></li>
                 </ul>
                 <ul>
                     <li class="name"><a href="#">Наименование 1</a></li>
@@ -75,7 +72,7 @@
                     <li class="name"><a href="#">Наименование 4</a></li>
                 </ul>
                 <ul class="boltgroup">
-                    <li class="group"><i><a href="#">БОЛТЫ</a></i></li>
+                    <li class="group"><span><img src="image/list.png" alt="">БОЛТЫ</span></li>
                 </ul>
                 <ul>
                     <li class="name"><a href="#">Наименование 1</a></li>
@@ -85,103 +82,76 @@
                 </ul>
             </ul>
         </section>
+
         <!-- main -->
         <main>
-            <div class="firstline">
-                <figure class="first">
-                    <a href="#">
-                        <figcaption class="nomination">Goodyear
-                            <p>Ultra Grip Exrtreme</p>
-                        </figcaption>
-                    </a>
-                    <figcaption class="button">90.00 <span>грн.</span>
-                    </figcaption>
-                </figure>
-                <figure class="second">
-                    <a href="#">
-                        <figcaption class="nomination">Nokian
-                            <p>Hakkapeliitta R</p>
-                        </figcaption>
-                    </a>
-                    <figcaption class="button">115.00 <span>грн.</span>
-                    </figcaption>
-                </figure>
-                <figure class="third">
-                    <a href="#">
-                        <figcaption class="nomination">Hankook
-                            <p>K 708 155/65 R14</p>
-                        </figcaption>
-                    </a>
-                    <figcaption class="button">393.00 <span>грн.</span>
-                    </figcaption>
-            </div>
-            <div class="secondline">
-                <figure class="first">
-                    <a href="#">
-                        <figcaption class="nomination">Goodyear
-                            <p>Ultra Grip Exrtreme </p>
-                        </figcaption>
-                    </a>
-                    <figcaption class="button">90.00 <span>грн.</span>
-                    </figcaption>
-                </figure>
-                <figure class="second">
-                    <a href="#">
-                        <figcaption class="nomination">Nokian
-                            <p>Hakkapeliitta R</p>
-                        </figcaption>
-                    </a>
-                    <figcaption class="button">115.00 <span>грн.</span>
-                    </figcaption>
-                </figure>
-                <figure class="third">
-                    <a href="#">
-                        <figcaption class="nomination">Hankook
-                            <p>K 708 155/65 R14</p>
-                        </figcaption>
-                    </a>
-                    <figcaption class="button">393.00 <span>грн.</span>
-                    </figcaption>
-            </div>
-            <div class="thirdline">
-                <figure class="first">
-                    <a href="#">
-                        <figcaption class="nomination">Goodyear
-                            <p>Ultra Grip Exrtreme</p>
-                        </figcaption>
-                    </a>
-                    <figcaption class="button">90.00 <span>грн.</span>
-                    </figcaption>
-                </figure>
-                <figure class="second">
-                    <a href="#">
-                        <figcaption class="nomination">Nokian
-                            <p>Hakkapeliitta R</p>
-                        </figcaption>
-                    </a>
-                    </figcaption>
-                    <figcaption class="button">115.00 <span>грн.</span>
-                    </figcaption>
-                </figure>
-                <figure class="third">
-                    <a href="#">
-                        <figcaption class="nomination">Hankook
-                            <p>K 708 155/65 R14</p>
-                        </figcaption>
-                    </a>
-                    </figcaption>
-                    <figcaption class="button">393.00 <span>грн.</span>
-                    </figcaption>
-            </div>
+            <figure>
+                <figcaption class="namebrend">Goodyear</figcaption>
+                <span class="model">Ultra Grip Extreme</span>
+                <div class="tovarphoto"><img src="image/tovarphoto.png" alt=""></div>
+                <span class="price">90.00<span class="currency"> грн.</span></span>
+            </figure>
+            <figure>
+                <figcaption class="namebrend">Nokian</figcaption>
+                <span class="model">Hakkapeliitta R</span>
+                <div class="tovarphoto"><img src="image/tovarphoto.png" alt=""></div>
+                <span class="price">115.00<span class="currency"> грн.</span></span>
+            </figure>
+            <figure>
+                <figcaption class="namebrend">Hankook</figcaption>
+                <span class="model">K 708 155/65 R14</span>
+                <div class="tovarphoto"><img src="image/tovarphoto.png" alt=""></div>
+                <span class="price">393.00<span class="currency"> грн.</span></span>
+            </figure>
+            <figure>
+                <figcaption class="namebrend">Goodyear</figcaption>
+                <span class="model">Ultra Grip Extreme</span>
+                <div class="tovarphoto"><img src="image/tovarphoto.png" alt=""></div>
+                <span class="price">90.00<span class="currency" > грн.</span></span>
+            </figure>
+            <figure>
+                <figcaption class="namebrend">Nokian</figcaption>
+                <span class="model">Hakkapeliitta R</span>
+                <div class="tovarphoto"><img src="image/tovarphoto.png" alt=""></div>
+                <span class="price">115.00<span class="currency"> грн.</span></span>
+            </figure>
+            <figure>
+                <figcaption class="namebrend">Hankook</figcaption>
+                <span class="model">K 708 155/65 R14</span>
+                <div class="tovarphoto"><img src="image/tovarphoto.png" alt=""></div>
+                <span class="price">393.00<span class="currency"> грн.</span></span>
+            </figure>
+            <figure>
+                <figcaption class="namebrend">Goodyear</figcaption>
+                <span class="model">Ultra Grip Extreme</span>
+                <div class="tovarphoto"><img src="image/tovarphoto.png" alt=""></div>
+                <span class="price">90.00<span class="currency"> грн.</span></span>
+            </figure>
+            <figure>
+                <figcaption class="namebrend">Nokian</figcaption>
+                <span class="model">Hakkapeliitta R</span>
+                <div class="tovarphoto"><img src="image/tovarphoto.png" alt=""></div>
+                <span class="price">115.00<span class="currency"> грн.</span></span>
+            </figure>
+            <figure>
+                <figcaption class="namebrend">Hankook</figcaption>
+                <span class="model-tires">K 708 155/65 R14</span>
+                <div class="tovarphoto"><img src="image/tovarphoto.png" alt=""></div>
+                <span class="price">393.00<span class="currency"> грн.</span></span>
+            </figure>
         </main>
         <!-- rightmenu -->
         <section class="brend">
             <ul>
                 <ul class="brendu">
-                    <li class="brendproduct"><a href="#">БРЕНДЫ:</a></li>
+                    <li class="brendproduct">
+                        <a href="#"><img src="image/list.png">БРЕНДЫ:</a>
+                    </li>
                 </ul>
                 <ul class="shinu">
-                    <li class="groupfirst"><a href="#">ШИНЫ</a></li>
+                    <li class="groupfirst">
+                        <a href="#"><img src="image/marker.png">ШИНЫ</a>
+                    </li>
                 </ul>
                 <ul>
                     <li>
@@ -198,7 +168,7 @@
                     </li>
                 </ul>
                 <ul class="disk">
-                    <li class="groupsecond"><i><a href="#">ДИСКИ</a></i></li>
+                    <li class="groupsecond"><i><a href="#"><img src="image/marker.png">ДИСКИ</a></i></li>
                 </ul>
                 <ul>
                     <li>
