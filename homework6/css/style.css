@@ -12,7 +12,7 @@ body {
 header {
     display: flex;
     flex-flow: row;
-    margin-top: 18px;
+    margin-top: 17px;
 }
 
 .phone {
@@ -20,8 +20,9 @@ header {
 }
 
 header div {
-    margin-top: 5px;
-    margin-left: 2px;
+    margin-top: 4px;
+    margin-left: -2px;
+    padding: 0 5px 0 5px;
     font-family: Arial;
     font-size: 18px;
     color: #5e696d;
@@ -34,8 +35,8 @@ header div a {
 }
 
 .formmenu {
-    height: 28px;
-    width: 491px;
+    height: 22px;
+    width: 496px;
     display: inline-block;
     background: linear-gradient(to top, #0e375b, #1f6787);
     color: #ffffff;
@@ -44,38 +45,53 @@ header div a {
     margin-left: 18px;
 }
 
-form i {
-    background-image: url(../image/man.png);
-    background-repeat: no-repeat;
+.formmenu {
+    padding: 3px 7px 2px 3px;
 }
 
 .formmenu input {
     padding-left: 5px;
-    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.man {
+    padding: 3px 1px 2px 3px;
+    vertical-align: middle;
 }
 
 .login {
     font-size: 11px;
     width: 110px;
     height: 16px;
-    margin-left: 24px;
     border-radius: 2px;
     border: none;
 }
 
 .entrance:after {
     content: "";
-    margin-left: 2px;
+    margin-bottom: 15px;
 }
 
-.forgetpass {
+.entrance {
     display: inline-block;
-    margin-left: 20px;
-    margin-right: 10px;
     font-family: 'lucida_sans_unicoderegular';
     font-size: 12px;
     color: #bfbfbf;
     text-decoration: underline;
+}
+
+.forgetpass {
+    display: inline-block;
+    font-family: 'lucida_sans_unicoderegular';
+    font-size: 12px;
+    color: #bfbfbf;
+    text-decoration: underline;
+}
+
+.formmenu {
+    vertical-align: middle;
+    margin-top: 2px;
+    padding: 1px 0 3px 2px;
 }
 
 .formmenu a {
@@ -88,7 +104,7 @@ form i {
 .password {
     margin-left: 4px;
     font-size: 11px;
-    width: 108px;
+    width: 110px;
     height: 16px;
     border-radius: 2px;
     border: none;
@@ -105,7 +121,7 @@ aside {
 }
 
 aside img {
-    margin-left: 8px;
+    margin: 3px 5px;
 }
 
 
@@ -174,31 +190,76 @@ aside img {
 }
 
 
+/*boxconten*/
+
+.boxcontent {
+    display: block;
+}
+
+.box {
+    display: inline-block;
+    width: 407px;
+    height: 133px;
+    margin-top: 10px;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 2px 1px #c5c5c5;
+    border-radius: 14px;
+}
+
+.box1 {
+    width: 191px;
+    height: 133px;
+    display: inline-block;
+    margin-top: 10px;
+    margin-left: 14px;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 2px 1px #c5c5c5;
+    border-radius: 14px;
+}
+
+.box2 {
+    width: 267px;
+    height: 133px;
+    margin-top: 10px;
+    margin-left: 14px;
+    display: inline-block;
+    border: 1px solid #ebebeb;
+    box-shadow: 0 2px 1px #c5c5c5;
+    border-radius: 14px;
+}
+
+
 /*<!-- content -->*/
-
-
-/*menuKATALOG*/
 
 .menucatalog {
     float: left;
+    margin-top: 15px;
 }
 
 .catalog {
-    width: 180px;
+    width: 140px;
+    height: 30px;
     border: 1px solid #8b979c;
     border-radius: 25px;
     box-shadow: 0 2px 1px #8c969a;
     clear: both;
-    margin-top: 31px;
-    padding-bottom: 10px;
-    padding-top: 21px;
+    margin-left: -35px;
 }
 
+.catalog img {
+    margin: 0 4px 0 4px;
+}
 
-/*<!-- content -->*/
+.catalog li {
+    list-style-type: none;
+}
 
-.menucatalog li {
-    margin-top: 15px;
+.catalog a:hover {
+    color: #0c3256;
+}
+
+.productcatalog {
+    margin-left: -35px;
 }
 
 .menucatalog li {
@@ -207,36 +268,20 @@ aside img {
     font-style: normal;
 }
 
-.menucatalog .catalog {
-    border: 1px solid #8b979c;
-    margin-left: -35px;
-    padding-top: 2px;
-    border-radius: 25px;
-    width: 142px;
-    box-shadow: 0 2px 1px #8c969a;
-}
-
 .menucatalog span {
     font-family: 'lucida_sans_unicoderegular';
     font-size: 12.6px;
     color: #114165;
 }
 
-.productcatalog span {
-    margin-left: -35px;
-}
-
-.catalog li {
-    list-style-type: none;
-}
-
 .shinugroup {
+    width: 110px;
+    height: 30px;
     border: 1px solid #8b979c;
     margin-left: -40px;
     margin-top: 10px;
-    padding-bottom: 9px;
+    margin-bottom: : 9px;
     border-radius: 25px;
-    width: 110px;
 }
 
 .shinugroup a {
@@ -248,22 +293,25 @@ aside img {
 .group {
     list-style-type: none;
     line-height: 7px;
+    margin-left: -35px;
 }
 
-.menucatalog .group a {
-    margin-left: 30px;
+.group img {
+    margin: 0 4px 0 4px;
 }
 
 .name {
     font-size: 12.6px;
     color: #8b979c;
+    margin-top: 8px;
+    margin-left: -35px;
 }
 
 .name a {
     color: #8b979c;
 }
 
-.name:hover {
+.name a:hover {
     color: #0c3256;
     text-decoration: underline;
     font-style: italic;
@@ -275,12 +323,13 @@ aside img {
 }
 
 .diskgroup {
+    width: 110px;
+    height: 30px;
     border: 1px solid #8b979c;
     margin-left: -40px;
     margin-top: 4px;
-    padding-bottom: 9px;
+    margin-bottom: : 9px;
     border-radius: 25px;
-    width: 110px;
 }
 
 .diskgroup a {
@@ -295,12 +344,13 @@ aside img {
 }
 
 .boltgroup {
+    width: 110px;
+    height: 30px;
     border: 1px solid #8b979c;
     margin-left: -40px;
     margin-top: 4px;
-    padding-bottom: 9px;
+    margin-bottom: : 9px;
     border-radius: 25px;
-    width: 110px;
 }
 
 .boltgroup a {
@@ -327,8 +377,8 @@ main {
     display: inline-block;
     float: left;
     box-sizing: border-box;
-    margin: 5px 0 0 9px;
-    margin-top: 31px;
+    margin: 12px 0 0 9px;
+    margin-top: 12px;
     padding: 9px 0 12px 9px;
     width: 526px;
     background: linear-gradient(to top, #93a7b0, #e5e7e8);
@@ -397,20 +447,10 @@ figcaption, figure>span {
 
 /*rightmenu*/
 
-.righmenu {
-    width: 185px;
-    height: 134px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    border: 2px solid #ebebeb;
-    box-shadow: 0px 3px 3px #d3d8db;
-    float: left;
-    margin-top: 8px;
-}
-
 .brend {
     float: left;
     margin-top: 17px;
+    margin-left: -30px;
 }
 
 .brend li {
@@ -418,8 +458,8 @@ figcaption, figure>span {
 }
 
 .brendu {
-    width: 140px;
-    height: 25px;
+    width: 135px;
+    height: 30px;
     border: 1px solid #ebebeb;
     border-radius: 25px;
     box-shadow: 0px 3px 3px #d3d8db;
@@ -427,8 +467,13 @@ figcaption, figure>span {
     color: : #114165;
 }
 
-.brendu a {
+.brendu li {
     margin-left: -35px;
+    margin-top: 3px;
+}
+
+.brendu img {
+    margin-right: 5px;
 }
 
 .brendu a {
@@ -441,14 +486,13 @@ figcaption, figure>span {
 
 .shinu {
     margin-top: 12px;
+    margin-left: 15px;
 }
 
 .shinu {
     border: 1px solid #8b979c;
-    margin-top: 10px;
     padding-bottom: 3px;
     border-radius: 25px;
-    margin-left: -10px;
     width: 100px;
 }
 
@@ -456,20 +500,19 @@ figcaption, figure>span {
     text-decoration: none;
     color: #114165;
     font-size: 14px;
-    margin-left: 30px;
+    margin-left: -40px;
     font-style: normal;
 }
 
 .disk {
-    margin-top: 12px;
+    margin-top: 15px;
+    margin-left: 15px;
 }
 
 .disk {
     border: 1px solid #8b979c;
-    margin-top: 10px;
     padding-bottom: 3px;
     border-radius: 25px;
-    margin-left: -10px;
     width: 100px;
 }
 
@@ -477,8 +520,16 @@ figcaption, figure>span {
     text-decoration: none;
     color: #114165;
     font-size: 14px;
-    margin-left: 30px;
+    margin-left: -40px;
     font-style: normal;
+}
+
+.disk img {
+    margin: 4px 4px 0 4px;
+}
+
+.shinu img {
+    margin: 4px 4px 0 4px;
 }
 
 label {
@@ -488,13 +539,14 @@ label {
 }
 
 .checkbox {
-    margin-left: -35px;
+    margin-left: -15px;
+    margin-top: 10px;
 }
 
 .choose {
     display: inline-block;
-    margin-top: 410px;
-    margin-left: -140px;
+    margin-top: 15px;
+    margin-left: 35px;
     padding: 5px 17px 7px 17px;
     font-family: Arial;
     font-size: 11px;
@@ -576,4 +628,8 @@ oter span {
     font-family: Arial;
     font-size: 10px;
     color: #7f4740;
+}
+
+f4740;
+
 }
